@@ -19,7 +19,7 @@
             android:id="@+id/display_ans"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="195"
+
             android:textAlignment="textEnd"
             android:paddingEnd="32dp"
             android:textSize="45sp"
@@ -30,7 +30,7 @@
             android:id="@+id/display_calculations"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="125+80-10"
+
             android:textAlignment="textEnd"
             android:paddingEnd="32dp"
             android:textSize="20sp"
