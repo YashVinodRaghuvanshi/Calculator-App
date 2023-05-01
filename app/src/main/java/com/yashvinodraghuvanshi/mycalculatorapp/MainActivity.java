@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.mozilla.javascript.Context;
+import org.mozilla.javascript.Scriptable;
+
 public class MainActivity extends AppCompatActivity {
     TextView dp_ans, dp_cal;
     ImageView n0, n1, n2, n3, n4, n5, n6, n7, n8, n9;
@@ -40,6 +43,14 @@ public class MainActivity extends AppCompatActivity {
         equeld = findViewById(R.id.num_equels);
         ac = findViewById(R.id.num_ac);
         dot = findViewById(R.id.num_dot);
+
+        ac.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dp_cal.setText("");
+                dp_ans.setText("");
+            }
+        });
 
         n0.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -169,6 +180,25 @@ public class MainActivity extends AppCompatActivity {
 
                 data = dp_cal.getText().toString();
                 dp_cal.setText(data+".");
+            }
+        });
+
+        equeld.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                data = dp_cal.getText().toString();
+                data.replaceAll("×","*");
+                data.replaceAll("%","/100");
+                data.replaceAll("÷","/");
+
+                Context rhino = Context.enter();
+                rhino.setOptimizationLevel(-1);
+
+                String finalResult = "";
+                Scriptable scriptable = rhino.initStandardObjects();
+                finalResult = rhino.evaluateString(scriptable,data,"Javascript",1,null).toString();
+
+                dp_ans.setText(finalResult);
             }
         });
 
