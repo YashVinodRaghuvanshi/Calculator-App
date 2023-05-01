@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="12dp"
+        android:layout_marginBottom="24dp"
         android:layout_alignParentBottom="true"
         >
 
@@ -56,30 +57,30 @@
             >
             <ImageView
                 android:id="@+id/num_ac"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:src="@drawable/num_ac"
 
                 />
             <ImageView
 
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
 
                 />
             <ImageView
                 android:id="@+id/num_modulo"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_modulo"
 
                 />
             <ImageView
                 android:id="@+id/num_divide"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_divide"
                 />
@@ -94,30 +95,30 @@
             >
             <ImageView
                 android:id="@+id/num_7"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:src="@drawable/num_7"
 
                 />
             <ImageView
                 android:id="@+id/num_8"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_8"
                 />
             <ImageView
                 android:id="@+id/num_9"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_9"
 
                 />
             <ImageView
                 android:id="@+id/num_multiply"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_multiply"
                 />
@@ -133,30 +134,30 @@
             >
             <ImageView
                 android:id="@+id/num_4"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:src="@drawable/num_4"
 
                 />
             <ImageView
                 android:id="@+id/num_5"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_5"
                 />
             <ImageView
                 android:id="@+id/num_6"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_6"
 
                 />
             <ImageView
                 android:id="@+id/num_minus"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_minus"
                 />
@@ -171,30 +172,30 @@
             >
             <ImageView
                 android:id="@+id/num_1"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:src="@drawable/num_1"
 
                 />
             <ImageView
                 android:id="@+id/num_2"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_2"
                 />
             <ImageView
                 android:id="@+id/num_3"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_3"
 
                 />
             <ImageView
                 android:id="@+id/num_add"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_add"
                 />
@@ -209,28 +210,28 @@
             >
             <ImageView
                 android:id="@+id/num_0"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:src="@drawable/num_0"
 
                 />
             <ImageView
                 android:id="@+id/num_dot"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_dot"
                 />
             <ImageView
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
 
                 />
             <ImageView
                 android:id="@+id/num_equels"
-                android:layout_width="92dp"
-                android:layout_height="92dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginStart="8dp"
                 android:src="@drawable/num_equel"
                 />

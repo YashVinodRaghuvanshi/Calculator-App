@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 data = dp_cal.getText().toString();
-                dp_cal.setText(data+"×");
+                dp_cal.setText(data+"*");
             }
         });
         divide.setOnClickListener(new View.OnClickListener() {
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 data = dp_cal.getText().toString();
-                dp_cal.setText(data+"÷");
+                dp_cal.setText(data+"/");
             }
         });
         modulo.setOnClickListener(new View.OnClickListener() {
@@ -188,8 +188,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 data = dp_cal.getText().toString();
                 data.replaceAll("×","*");
-                data.replaceAll("%","/100");
                 data.replaceAll("÷","/");
+                data.replaceAll("%","/100");
+
 
                 Context rhino = Context.enter();
                 rhino.setOptimizationLevel(-1);
